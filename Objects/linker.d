@@ -1,0 +1,11 @@
+.\objects\linker.o: source\Linker.cpp
+.\objects\linker.o: .\Include\Linker.h
+.\objects\linker.o: .\Include\user.h
+.\objects\linker.o: .\Include\OsObjects.h
+.\objects\linker.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\objects\linker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\linker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\linker.o: .\Include\Usart.h
+.\objects\linker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\linker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\linker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

@@ -1,0 +1,32 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\robot.o"
+".\objects\user.o"
+".\objects\routine.o"
+".\objects\osobjects.o"
+".\objects\trajectory.o"
+".\objects\phase.o"
+".\objects\joint.o"
+".\objects\motor.o"
+".\objects\linker.o"
+".\objects\delay.o"
+".\objects\init.o"
+".\objects\usart.o"
+".\objects\hardwareinit.o"
+".\objects\retarget.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\misc.o"
+".\objects\stm32f10x_bkp.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_pwr.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--show_parent_lib --show_full_path --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Ramh.map" -o .\Objects\Ramh.axf
